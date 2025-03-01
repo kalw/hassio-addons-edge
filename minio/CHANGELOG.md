@@ -1,3 +1,3 @@
-- Merge pull request #5 from kalw/docs--add-minio-docker-doc-link
+- Merge pull request #6 from kalw/fix--ingress-and-ssl
 
-docs: add minio docker doc link
+Fix  ingress and ssl
