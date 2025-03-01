@@ -1,3 +1,3 @@
-- Merge pull request #7 from kalw/fix--typo-in-readme-template-name
+- Merge pull request #8 from kalw/fix--correct-and-variabilized-links-and-badges
 
-fix: typo in readme template name
+fix: correct and variabilized links and badges

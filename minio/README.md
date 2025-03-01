@@ -1,4 +1,4 @@
-# Home Assistant Add-on: MinIO
+# [project-stage-shield] Home Assistant Add-on: MinIO
 
 [![GitHub Release][releases-shield]][releases]
 ![Project Stage][project-stage-shield]
@@ -49,6 +49,7 @@ If you are more interested in stable releases of our add-ons:
 <https://github.com/kalw/hassio-addons>
 
 
+
 ## Features
 
 - S3 compatible object storage
@@ -62,18 +63,20 @@ If you are more interested in stable releases of our add-ons:
 [armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[commits-shield]: https://img.shields.io/github/commit-activity/y/kalw/hassio-addons.svg
-[commits]: https://github.com/kalw/hassio-addons/commits/main
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
-[docs]: https://github.com/kalw/hassio-addons/blob/main/minio/DOCS.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/
-[github-actions-shield]: https://github.com/kalw/hassio-addons/workflows/CI/badge.svg
-[github-actions]: https://github.com/kalw/hassio-addons/actions
-[license-shield]: https://img.shields.io/github/license/kalw/hassio-addons.svg
-[last-commit-shield]: https://img.shields.io/github/last-commit/kalw/hassio-addons.svg
-[project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
-[releases-shield]: https://img.shields.io/github/release/kalw/hassio-addons.svg
-[releases]: https://github.com/kalw/hassio-addons/releases
-[repository]: https://github.com/kalw/hassio-addons 
+[github-actions-shield]: https://github.com/MinIO/workflows/CI/badge.svg
+[github-actions]: https://github.com/MinIOe/actions
+[commits]: https://github.com/MinIO/commits/main
+[commits-shield]: https://img.shields.io/github/commit-activity/y/MinIO.svg
+[releases-shield]: https://img.shields.io/github/release/MinIO.svg
+[repository]: https://github.com/MinIO
+[releases]: https://github.com/MinIO/releases
+[docs]: ./DOCS.md
+[license-shield]: https://img.shields.io/github/license/MinIO.svg
+[last-commit-shield]: https://img.shields.io/github/last-commit/MinIO.svg
+[project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
+
+
