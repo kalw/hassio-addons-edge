@@ -1,3 +1,3 @@
-- Merge pull request #11 from kalw/test/repository-updater-PR
+- Merge pull request #12 from kalw/revert-11-test/repository-updater-PR
 
-test: repository-updater PR
+revert: "test: repository-updater PR"

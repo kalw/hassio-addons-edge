@@ -123,10 +123,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[addon-minio]: https://github.com/kalw/hassio-addon-minio/tree/bf39c6e
-[addon-doc-minio]: https://github.com/kalw/hassio-addon-minio/blob/bf39c6e/README.md
+[addon-minio]: https://github.com/kalw/hassio-addon-minio/tree/14d05d0
+[addon-doc-minio]: https://github.com/kalw/hassio-addon-minio/blob/14d05d0/README.md
 [minio-issue]: https://github.com/kalw/hassio-addon-minio/issues
-[minio-version-shield]: https://img.shields.io/badge/version-bf39c6e-blue.svg
+[minio-version-shield]: https://img.shields.io/badge/version-14d05d0-blue.svg
 [minio-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [minio-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [minio-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
