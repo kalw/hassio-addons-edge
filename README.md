@@ -40,6 +40,19 @@ https://github.com/kalw/hassio-addons-edge
 
 ## Add-ons provided by this repository
 
+### &#10003; [MinIO][addon-minio]
+
+![Latest Version][minio-version-shield]
+![Supports armhf Architecture][minio-armhf-shield]
+![Supports armv7 Architecture][minio-armv7-shield]
+![Supports aarch64 Architecture][minio-aarch64-shield]
+![Supports amd64 Architecture][minio-amd64-shield]
+![Supports i386 Architecture][minio-i386-shield]
+
+MinIO high-performance object storage
+
+[:books: MinIO add-on documentation][addon-doc-minio]
+
 ## Releases
 
 Add-on releases are **NOT** based on [Semantic Versioning][semver], unlike
@@ -61,6 +74,7 @@ You could also open an issue here on GitHub. Note, we use a separate
 GitHub repository for each add-on. Please ensure you are creating the issue
 on the correct GitHub repository matching the add-on.
 
+- [Open an issue for the add-on: MinIO][minio-issue]
 
 For a general repository issue or add-on ideas [open an issue here][issue]
 
@@ -102,6 +116,15 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+[addon-minio]: https://github.com/kalw/hassio-addon-minio/tree/2e75e62
+[addon-doc-minio]: https://github.com/kalw/hassio-addon-minio/blob/2e75e62/README.md
+[minio-issue]: https://github.com/kalw/hassio-addon-minio/issues
+[minio-version-shield]: https://img.shields.io/badge/version-2e75e62-blue.svg
+[minio-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[minio-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[minio-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[minio-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[minio-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
