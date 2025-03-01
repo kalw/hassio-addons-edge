@@ -1,3 +1,3 @@
-- Merge pull request #9 from kalw/fix--various-templated-infos
+- Merge pull request #10 from kalw/fix/typo-in-readme-template
 
-Fix  various templated infos
+fix: typo in readme template
