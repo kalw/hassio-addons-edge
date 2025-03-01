@@ -1,4 +1,4 @@
-# EDGE - Home Assistant Community Add-ons
+# [project-stage-shield] Home Assistant Community Add-ons
 
 ![Project Stage][project-stage-shield]
 ![Maintenance][maintenance-shield]
@@ -7,10 +7,10 @@
 [![Discord][discord-shield]][discord]
 [![Community Forum][forum-shield]][forum]
 
-## WARNING! THIS IS AN EDGE REPOSITORY
+## WARNING! THIS IS AN EDGE VERSION!
 
-This Home Assistant Add-ons repository contains edge builds of add-ons. Edge
-builds add-ons are based upon the latest development version.
+This Home Assistant Add-ons repository contains edge builds of add-ons.
+Edge builds add-ons are based upon the latest development version.
 
 - They may not work at all.
 - They might stop working at any time.
@@ -26,17 +26,24 @@ If you are more interested in stable releases of our add-ons:
 
 <https://github.com/kalw/hassio-addons>
 
+
 ## Installation
 
 Adding this add-ons repository to your Home Assistant instance is
 pretty straightforward. In the Home Assistant add-on store,
 a possibility to add a repository is provided.
 
-Use the following URL to add this repository:
+Use the following link to add this repository:
+
+[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fkalw/hassio-addons-edge)
+
+
+.. or use the following URL to add this repository:
 
 ```txt
 https://github.com/kalw/hassio-addons-edge
 ```
+
 
 ## Add-ons provided by this repository
 
@@ -134,7 +141,7 @@ SOFTWARE.
 [kalw]: https://github.com/kalw
 [issue]: https://github.com/kalw/hassio-addons-edge/issues
 [license-shield]: https://img.shields.io/github/license/kalw/hassio-addons-edge.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2024.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
 [reddit]: https://reddit.com/r/homeassistant
 [semver]: http://semver.org/spec/v2.0.0.html
