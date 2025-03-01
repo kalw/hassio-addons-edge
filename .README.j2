@@ -1,4 +1,4 @@
-# [project-stage-shield] Home Assistant Community Add-ons
+# ![Project Stage][project-stage-shield] Home Assistant Community Add-ons
 
 ![Project Stage][project-stage-shield]
 ![Maintenance][maintenance-shield]
