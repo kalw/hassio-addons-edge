@@ -1,5 +1,5 @@
 name: MinIO
-version: 188b9ff
+version: bf39c6e
 slug: minio
 description: MinIO high-performance object storage
 url: https://github.com/kalw/hassio-addon-minio

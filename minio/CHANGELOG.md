@@ -1,3 +1,3 @@
-- Merge pull request #10 from kalw/fix/typo-in-readme-template
+- Merge pull request #11 from kalw/test/repository-updater-PR
 
-fix: typo in readme template
+test: repository-updater PR

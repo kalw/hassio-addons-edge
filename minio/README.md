@@ -1,5 +1,8 @@
 # ![Project Stage][project-stage-shield] Home Assistant Add-on: MinIO
 
+
+test repositoty-updater PR kalw/hassio-addon-minio
+
 [![GitHub Release][releases-shield]][releases]
 ![Project Stage][project-stage-shield]
 [![License][license-shield]](LICENSE.md)
@@ -70,8 +73,8 @@ If you are more interested in stable releases of our add-ons:
 [github-actions-shield]: https://github.com/kalw/hassio-addon-minio/workflows/CI/badge.svg
 [github-actions]: https://github.com/kalw/hassio-addon-minio/actions
 [commits]: https://github.com/kalw/hassio-addon-minio/commits/main
-[release-shield]: https://img.shields.io/badge/version-188b9ff-blue.svg
-[releases]: https://github.com/kalw/hassio-addon-minio/tree/188b9ff
+[release-shield]: https://img.shields.io/badge/version-bf39c6e-blue.svg
+[releases]: https://github.com/kalw/hassio-addon-minio/tree/bf39c6e
 [repository]: https://github.com/kalw/hassio-addon-minio
 [docs]: ./DOCS.md
 
