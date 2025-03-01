@@ -1,3 +1,3 @@
-- Merge pull request #6 from kalw/fix--ingress-and-ssl
+- Merge pull request #7 from kalw/fix--typo-in-readme-template-name
 
-Fix  ingress and ssl
+fix: typo in readme template name
