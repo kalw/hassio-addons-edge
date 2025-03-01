@@ -1,0 +1,7 @@
+---
+channel: edge
+addons:
+  minio:
+    repository: kalw/hassio-addons-minio
+    target: minio
+    image: ghcr.io/kalw/hassio-addons-minio/${arch}
