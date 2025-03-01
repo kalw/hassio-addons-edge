@@ -1,4 +1,4 @@
-# [project-stage-shield] Home Assistant Add-on: MinIO
+# ![Project Stage][project-stage-shield] Home Assistant Add-on: MinIO
 
 [![GitHub Release][releases-shield]][releases]
 ![Project Stage][project-stage-shield]
@@ -67,16 +67,19 @@ If you are more interested in stable releases of our add-ons:
 [discord]: https://discord.me/hassioaddons
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/
-[github-actions-shield]: https://github.com/MinIO/workflows/CI/badge.svg
-[github-actions]: https://github.com/MinIOe/actions
-[commits]: https://github.com/MinIO/commits/main
-[commits-shield]: https://img.shields.io/github/commit-activity/y/MinIO.svg
-[releases-shield]: https://img.shields.io/github/release/MinIO.svg
-[repository]: https://github.com/MinIO
-[releases]: https://github.com/MinIO/releases
+[github-actions-shield]: https://github.com/kalw/hassio-addon-minio/workflows/CI/badge.svg
+[github-actions]: https://github.com/kalw/hassio-addon-minio/actions
+[commits]: https://github.com/kalw/hassio-addon-minio/commits/main
+[release-shield]: https://img.shields.io/badge/version-1b7a5f1-blue.svg
+[release]: https://github.com/kalw/hassio-addon-minio/tree/1b7a5f1
+[repository]: https://github.com/kalw/hassio-addon-minio
 [docs]: ./DOCS.md
-[license-shield]: https://img.shields.io/github/license/MinIO.svg
-[last-commit-shield]: https://img.shields.io/github/last-commit/MinIO.svg
+
+[commits-shield]: https://img.shields.io/github/commit-activity/y/kalw/hassio-addon-minio.svg
+[releases-shield]: https://img.shields.io/github/release/kalw/hassio-addon-minio.svg
+[license-shield]: https://img.shields.io/github/license/kalw/hassio-addon-minio.svg
+[last-commit-shield]: https://img.shields.io/github/last-commit/kalw/hassio-addon-minio.svg
+
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
 
 

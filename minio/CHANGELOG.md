@@ -1,3 +1,3 @@
-- Merge pull request #8 from kalw/fix--correct-and-variabilized-links-and-badges
+- Merge pull request #9 from kalw/fix--various-templated-infos
 
-fix: correct and variabilized links and badges
+Fix  various templated infos
