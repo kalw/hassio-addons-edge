@@ -1,1 +1,1 @@
-- chore: remove unused lines
+- fix: wrong image path
