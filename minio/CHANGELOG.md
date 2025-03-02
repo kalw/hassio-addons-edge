@@ -1,3 +1,1 @@
-- Merge pull request #13 from kalw/renovate/configure
-
-chore: Configure Renovate
+- chore: remove unused lines
