@@ -4,4 +4,4 @@ addons:
   minio:
     repository: kalw/hassio-addon-minio
     target: minio
-    image: ghcr.io/kalw/hassio-addon-minio/${arch}
+    image: ghcr.io/kalw/minio/{arch}
