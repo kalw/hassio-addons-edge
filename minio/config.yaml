@@ -1,5 +1,5 @@
 name: MinIO
-version: f9f0860
+version: 6fb0d44
 slug: minio
 description: MinIO high-performance object storage
 url: https://github.com/kalw/hassio-addon-minio
@@ -36,4 +36,4 @@ schema:
   data_path: str
   username: str
   password: str
-image: ghcr.io/kalw/hassio-addon-minio/${arch}
+image: ghcr.io/kalw/minio/{arch}

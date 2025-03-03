@@ -70,8 +70,8 @@ If you are more interested in stable releases of our add-ons:
 [github-actions-shield]: https://github.com/kalw/hassio-addon-minio/workflows/CI/badge.svg
 [github-actions]: https://github.com/kalw/hassio-addon-minio/actions
 [commits]: https://github.com/kalw/hassio-addon-minio/commits/main
-[release-shield]: https://img.shields.io/badge/version-f9f0860-blue.svg
-[releases]: https://github.com/kalw/hassio-addon-minio/tree/f9f0860
+[release-shield]: https://img.shields.io/badge/version-6fb0d44-blue.svg
+[releases]: https://github.com/kalw/hassio-addon-minio/tree/6fb0d44
 [repository]: https://github.com/kalw/hassio-addon-minio
 [docs]: ./DOCS.md
 
