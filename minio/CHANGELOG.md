@@ -1,3 +1,3 @@
-- Merge pull request #14 from kalw/kalw-patch-1
+- Merge pull request #20 from kalw/fix--hadolint-false-positive
 
-fix: image not needed in here
+fix: missing armv7 arch
