@@ -47,6 +47,19 @@ https://github.com/kalw/hassio-addons-edge
 
 ## Add-ons provided by this repository
 
+### &#10003; [HA Stats Lake][addon-ha_stats_lake]
+
+![Latest Version][ha_stats_lake-version-shield]
+![Supports armhf Architecture][ha_stats_lake-armhf-shield]
+![Supports armv7 Architecture][ha_stats_lake-armv7-shield]
+![Supports aarch64 Architecture][ha_stats_lake-aarch64-shield]
+![Supports amd64 Architecture][ha_stats_lake-amd64-shield]
+![Supports i386 Architecture][ha_stats_lake-i386-shield]
+
+Long-term storage for Home Assistant sensor data. Samples a Group helper every 30 minutes to per-entity monthly CSVs, then consolidates nightly into a DuckLake (Parquet) on any S3-compatible store and optionally syncs raw CSVs to any rclone remote.
+
+[:books: HA Stats Lake add-on documentation][addon-doc-ha_stats_lake]
+
 ### &#10003; [MinIO][addon-minio]
 
 ![Latest Version][minio-version-shield]
@@ -81,6 +94,7 @@ You could also open an issue here on GitHub. Note, we use a separate
 GitHub repository for each add-on. Please ensure you are creating the issue
 on the correct GitHub repository matching the add-on.
 
+- [Open an issue for the add-on: HA Stats Lake][ha_stats_lake-issue]
 - [Open an issue for the add-on: MinIO][minio-issue]
 
 For a general repository issue or add-on ideas [open an issue here][issue]
@@ -123,6 +137,15 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+[addon-ha_stats_lake]: https://github.com/kalw/ha-stats-lake/tree/eb8a9ff
+[addon-doc-ha_stats_lake]: https://github.com/kalw/ha-stats-lake/blob/eb8a9ff/README.md
+[ha_stats_lake-issue]: https://github.com/kalw/ha-stats-lake/issues
+[ha_stats_lake-version-shield]: https://img.shields.io/badge/version-eb8a9ff-blue.svg
+[ha_stats_lake-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[ha_stats_lake-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[ha_stats_lake-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[ha_stats_lake-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[ha_stats_lake-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-minio]: https://github.com/kalw/hassio-addon-minio/tree/a12e938
 [addon-doc-minio]: https://github.com/kalw/hassio-addon-minio/blob/a12e938/README.md
 [minio-issue]: https://github.com/kalw/hassio-addon-minio/issues
