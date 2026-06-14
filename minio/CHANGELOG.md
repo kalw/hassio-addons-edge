@@ -1,3 +1,3 @@
-- Merge pull request #20 from kalw/fix--hadolint-false-positive
+- fix: drop i386 — MinIO has no i386 binary
 
-fix: missing armv7 arch
+fix: drop i386 — MinIO has no i386 binary
