@@ -1,3 +1,3 @@
-- refactor: generalize S3 and rclone config options
+- fix(ci): use repository_edge param for hassio-addons-edge dispatch
 
-refactor: generalize S3 and rclone config options
+fix(ci): use repository_edge param for hassio-addons-edge dispatch

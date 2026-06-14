@@ -20,8 +20,8 @@ CSV files, then nightly:
 
 - consolidates new rows into a [DuckLake](https://ducklake.select/) (Parquet)
   on any **S3-compatible store** (Cloudflare R2, AWS S3, MinIO, …)
-- syncs raw CSVs to any `rclone` remote as a cold backup (OneDrive, Google
-  Drive, SFTP, …)
+- syncs raw CSVs to any [rclone](https://rclone.org/) remote as a cold backup
+  (OneDrive, Google Drive, SFTP, …)
 
 Visualization on demand via `duckdb -ui` pointed at your S3 store — no
 dashboard server to maintain.
@@ -61,9 +61,9 @@ If you are more interested in stable releases of our add-ons:
 [commits]: https://github.com/kalw/ha-stats-lake/commits/main
 [commits-shield]: https://img.shields.io/github/commit-activity/y/kalw/ha-stats-lake.svg
 [releases-shield]: https://img.shields.io/github/release/kalw/ha-stats-lake.svg
-[releases]: https://github.com/kalw/ha-stats-lake/tree/eb8a9ff
+[releases]: https://github.com/kalw/ha-stats-lake/tree/fc2f82f
 [last-commit-shield]: https://img.shields.io/github/last-commit/kalw/ha-stats-lake.svg
 [license-shield]: https://img.shields.io/github/license/kalw/ha-stats-lake.svg
-[docs]: ./DOCS.md
+[docs]: https://github.com/kalw/ha-stats-lake/blob/main/ha_stats/DOCS.md
 
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
