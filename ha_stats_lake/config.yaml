@@ -3,7 +3,7 @@ description: Long-term storage for Home Assistant sensor data. Samples a list of
   every 30 minutes to per-entity monthly CSVs, then consolidates nightly into a DuckLake
   (Parquet) on any S3-compatible store and optionally syncs raw CSVs to any rclone
   remote.
-version: 9b92f7d
+version: af276b7
 slug: ha_stats_lake
 url: https://github.com/kalw/ha-stats-lake
 image: ghcr.io/kalw/ha_stats_lake/{arch}
@@ -31,6 +31,6 @@ schema:
   rclone_sync_time: str
   s3_bucket: str
   s3_endpoint: str
-  s3_key_id: str
-  s3_secret: str
+  s3_key_id: password
+  s3_secret: password
   rclone_remote: str
