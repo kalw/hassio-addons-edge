@@ -56,7 +56,7 @@ https://github.com/kalw/hassio-addons-edge
 ![Supports amd64 Architecture][ha_stats_lake-amd64-shield]
 ![Supports i386 Architecture][ha_stats_lake-i386-shield]
 
-Long-term storage for Home Assistant sensor data. Samples a Group helper every 30 minutes to per-entity monthly CSVs, then consolidates nightly into a DuckLake (Parquet) on any S3-compatible store and optionally syncs raw CSVs to any rclone remote.
+Long-term storage for Home Assistant sensor data. Samples a list of entities every 30 minutes to per-entity monthly CSVs, then consolidates nightly into a DuckLake (Parquet) on any S3-compatible store and optionally syncs raw CSVs to any rclone remote.
 
 [:books: HA Stats Lake add-on documentation][addon-doc-ha_stats_lake]
 
