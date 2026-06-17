@@ -1,3 +1,3 @@
-- fix(ci): use repository_edge param for hassio-addons-edge dispatch
+- Merge pull request #10 from kalw/fix/s6-run-executable
 
-fix(ci): use repository_edge param for hassio-addons-edge dispatch
+fix: make s6 service run script executable
