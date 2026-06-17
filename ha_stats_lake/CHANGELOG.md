@@ -1,3 +1,3 @@
-- Merge pull request #12 from kalw/fix/s3-secret-password-type
+- Merge pull request #13 from kalw/feat/entity-selector
 
-fix(config): use password type for s3_key_id and s3_secret
+feat(config): use entity selector for tracked_entities
