@@ -1,3 +1,3 @@
-- Merge pull request #10 from kalw/fix/s6-run-executable
+- Merge pull request #11 from kalw/refactor/direct-entity-list
 
-fix: make s6 service run script executable
+refactor: replace group helper with direct tracked_entities list
