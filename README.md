@@ -137,10 +137,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[addon-ha_stats_lake]: https://github.com/kalw/ha-stats-lake/tree/17baefd
-[addon-doc-ha_stats_lake]: https://github.com/kalw/ha-stats-lake/blob/17baefd/README.md
+[addon-ha_stats_lake]: https://github.com/kalw/ha-stats-lake/tree/9cbbeaa
+[addon-doc-ha_stats_lake]: https://github.com/kalw/ha-stats-lake/blob/9cbbeaa/README.md
 [ha_stats_lake-issue]: https://github.com/kalw/ha-stats-lake/issues
-[ha_stats_lake-version-shield]: https://img.shields.io/badge/version-17baefd-blue.svg
+[ha_stats_lake-version-shield]: https://img.shields.io/badge/version-9cbbeaa-blue.svg
 [ha_stats_lake-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [ha_stats_lake-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [ha_stats_lake-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg

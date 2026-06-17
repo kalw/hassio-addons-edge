@@ -1,3 +1,3 @@
-- Merge pull request #13 from kalw/feat/entity-selector
+- Merge pull request #14 from kalw/fix/config-schema-compat
 
-feat(config): use entity selector for tracked_entities
+fix(config): revert selector syntax, add optional group_entity for compat
