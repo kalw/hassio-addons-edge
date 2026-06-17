@@ -1,3 +1,3 @@
-- Merge pull request #14 from kalw/fix/config-schema-compat
+- Merge pull request #15 from kalw/feat/cli-commands
 
-fix(config): revert selector syntax, add optional group_entity for compat
+feat: CLI subcommands, env var config, per-command overrides
