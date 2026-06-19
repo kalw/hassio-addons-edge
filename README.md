@@ -146,9 +146,9 @@ SOFTWARE.
 [ha_stats_lake-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [ha_stats_lake-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [ha_stats_lake-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-minio]: https://github.com/kalw/hassio-addon-minio/tree/a12e938
-[addon-doc-minio]: https://github.com/kalw/hassio-addon-minio/blob/a12e938/README.md
-[minio-issue]: https://github.com/kalw/hassio-addon-minio/issues
+[addon-minio]: https://github.com/kalw/hassio-addon-seaweedfs/tree/a12e938
+[addon-doc-minio]: https://github.com/kalw/hassio-addon-seaweedfs/blob/a12e938/README.md
+[minio-issue]: https://github.com/kalw/hassio-addon-seaweedfs/issues
 [minio-version-shield]: https://img.shields.io/badge/version-a12e938-blue.svg
 [minio-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [minio-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
