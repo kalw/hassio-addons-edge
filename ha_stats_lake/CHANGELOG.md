@@ -1,3 +1,3 @@
-- Merge pull request #15 from kalw/feat/cli-commands
+- Merge pull request #16 from kalw/feat/csv-retention
 
-feat: CLI subcommands, env var config, per-command overrides
+fix: DuckLake consolidation to R2 + csv_retention_days
