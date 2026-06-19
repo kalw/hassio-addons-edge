@@ -2,9 +2,9 @@
 channel: edge
 addons:
   minio:
-    repository: kalw/hassio-addon-minio
+    repository: kalw/hassio-addon-seaweedfs
     target: minio
-    image: ghcr.io/kalw/minio/{arch}
+    image: ghcr.io/kalw/seaweedfs/{arch}
   ha_stats_lake:
     repository: kalw/ha-stats-lake
     target: ha_stats
