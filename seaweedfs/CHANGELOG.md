@@ -1,0 +1,1 @@
+- fix: Remove webui configuration from config.yaml
