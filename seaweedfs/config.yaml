@@ -1,6 +1,6 @@
 ---
 name: "SeaweedFS"
-version: "dev"
+version: 98bce43
 slug: "seaweedfs"
 description: "SeaweedFS S3-compatible distributed object storage"
 url: "https://github.com/kalw/hassio-addon-seaweedfs"
