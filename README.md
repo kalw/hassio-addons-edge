@@ -60,18 +60,18 @@ Long-term storage for Home Assistant sensor data. Samples a list of entities eve
 
 [:books: HA Stats Lake add-on documentation][addon-doc-ha_stats_lake]
 
-### &#10003; [MinIO][addon-minio]
+### &#10003; [SeaweedFS][addon-seaweedfs]
 
-![Latest Version][minio-version-shield]
-![Supports armhf Architecture][minio-armhf-shield]
-![Supports armv7 Architecture][minio-armv7-shield]
-![Supports aarch64 Architecture][minio-aarch64-shield]
-![Supports amd64 Architecture][minio-amd64-shield]
-![Supports i386 Architecture][minio-i386-shield]
+![Latest Version][seaweedfs-version-shield]
+![Supports armhf Architecture][seaweedfs-armhf-shield]
+![Supports armv7 Architecture][seaweedfs-armv7-shield]
+![Supports aarch64 Architecture][seaweedfs-aarch64-shield]
+![Supports amd64 Architecture][seaweedfs-amd64-shield]
+![Supports i386 Architecture][seaweedfs-i386-shield]
 
-MinIO high-performance object storage
+SeaweedFS S3-compatible distributed object storage
 
-[:books: MinIO add-on documentation][addon-doc-minio]
+[:books: SeaweedFS add-on documentation][addon-doc-seaweedfs]
 
 ## Releases
 
@@ -95,7 +95,7 @@ GitHub repository for each add-on. Please ensure you are creating the issue
 on the correct GitHub repository matching the add-on.
 
 - [Open an issue for the add-on: HA Stats Lake][ha_stats_lake-issue]
-- [Open an issue for the add-on: MinIO][minio-issue]
+- [Open an issue for the add-on: SeaweedFS][seaweedfs-issue]
 
 For a general repository issue or add-on ideas [open an issue here][issue]
 
@@ -137,24 +137,24 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[addon-ha_stats_lake]: https://github.com/kalw/hassio-addon-stats-lake/tree/5ed0709
-[addon-doc-ha_stats_lake]: https://github.com/kalw/hassio-addon-stats-lake/blob/5ed0709/README.md
+[addon-ha_stats_lake]: https://github.com/kalw/hassio-addon-stats-lake/tree/af9bfba
+[addon-doc-ha_stats_lake]: https://github.com/kalw/hassio-addon-stats-lake/blob/af9bfba/README.md
 [ha_stats_lake-issue]: https://github.com/kalw/hassio-addon-stats-lake/issues
-[ha_stats_lake-version-shield]: https://img.shields.io/badge/version-5ed0709-blue.svg
+[ha_stats_lake-version-shield]: https://img.shields.io/badge/version-af9bfba-blue.svg
 [ha_stats_lake-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [ha_stats_lake-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [ha_stats_lake-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [ha_stats_lake-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [ha_stats_lake-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-minio]: https://github.com/kalw/hassio-addon-seaweedfs/tree/a12e938
-[addon-doc-minio]: https://github.com/kalw/hassio-addon-seaweedfs/blob/a12e938/README.md
-[minio-issue]: https://github.com/kalw/hassio-addon-seaweedfs/issues
-[minio-version-shield]: https://img.shields.io/badge/version-a12e938-blue.svg
-[minio-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[minio-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[minio-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[minio-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
-[minio-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[addon-seaweedfs]: https://github.com/kalw/hassio-addon-seaweedfs/tree/98bce43
+[addon-doc-seaweedfs]: https://github.com/kalw/hassio-addon-seaweedfs/blob/98bce43/README.md
+[seaweedfs-issue]: https://github.com/kalw/hassio-addon-seaweedfs/issues
+[seaweedfs-version-shield]: https://img.shields.io/badge/version-98bce43-blue.svg
+[seaweedfs-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[seaweedfs-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[seaweedfs-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[seaweedfs-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[seaweedfs-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
