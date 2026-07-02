@@ -146,10 +146,10 @@ SOFTWARE.
 [ha_stats_lake-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [ha_stats_lake-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [ha_stats_lake-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-seaweedfs]: https://github.com/kalw/hassio-addon-seaweedfs/tree/1a47791
-[addon-doc-seaweedfs]: https://github.com/kalw/hassio-addon-seaweedfs/blob/1a47791/README.md
+[addon-seaweedfs]: https://github.com/kalw/hassio-addon-seaweedfs/tree/690832e
+[addon-doc-seaweedfs]: https://github.com/kalw/hassio-addon-seaweedfs/blob/690832e/README.md
 [seaweedfs-issue]: https://github.com/kalw/hassio-addon-seaweedfs/issues
-[seaweedfs-version-shield]: https://img.shields.io/badge/version-1a47791-blue.svg
+[seaweedfs-version-shield]: https://img.shields.io/badge/version-690832e-blue.svg
 [seaweedfs-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [seaweedfs-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [seaweedfs-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg

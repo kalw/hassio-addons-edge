@@ -1,1 +1,1 @@
-- fix: Remove webui configuration from config.yaml
+- Change filer port from 8888 to 8889
