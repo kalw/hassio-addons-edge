@@ -1,3 +1,3 @@
-- Merge pull request #40 from kalw/fix/image-name-hassio-prefix
+- Merge pull request #42 from kalw/fix/rename-slug-hassio-addon
 
-fix: prefix published image name with hassio-addon
+fix: rename slug to hassio-addon-seaweedfs

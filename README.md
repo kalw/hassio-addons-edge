@@ -169,10 +169,10 @@ SOFTWARE.
 [vault-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [vault-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [vault-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-seaweedfs]: https://github.com/kalw/hassio-addon-seaweedfs/tree/5803f40
-[addon-doc-seaweedfs]: https://github.com/kalw/hassio-addon-seaweedfs/blob/5803f40/README.md
+[addon-seaweedfs]: https://github.com/kalw/hassio-addon-seaweedfs/tree/df9946d
+[addon-doc-seaweedfs]: https://github.com/kalw/hassio-addon-seaweedfs/blob/df9946d/README.md
 [seaweedfs-issue]: https://github.com/kalw/hassio-addon-seaweedfs/issues
-[seaweedfs-version-shield]: https://img.shields.io/badge/version-5803f40-blue.svg
+[seaweedfs-version-shield]: https://img.shields.io/badge/version-df9946d-blue.svg
 [seaweedfs-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [seaweedfs-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [seaweedfs-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
