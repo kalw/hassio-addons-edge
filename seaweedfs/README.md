@@ -63,8 +63,8 @@ If you are more interested in stable releases of our add-ons:
 [github-actions-shield]: https://github.com/kalw/hassio-addon-seaweedfs/workflows/CI/badge.svg
 [github-actions]: https://github.com/kalw/hassio-addon-seaweedfs/actions
 [commits]: https://github.com/kalw/hassio-addon-seaweedfs/commits/main
-[release-shield]: https://img.shields.io/badge/version-f4cabcc-blue.svg
-[releases]: https://github.com/kalw/hassio-addon-seaweedfs/tree/f4cabcc
+[release-shield]: https://img.shields.io/badge/version-5967698-blue.svg
+[releases]: https://github.com/kalw/hassio-addon-seaweedfs/tree/5967698
 [repository]: https://github.com/kalw/hassio-addon-seaweedfs
 [docs]: ./DOCS.md
 

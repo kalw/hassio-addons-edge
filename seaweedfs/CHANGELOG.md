@@ -1,3 +1,3 @@
-- Merge pull request #38 from kalw/fix/use-hassio-addons-base-images
+- Merge pull request #39 from kalw/fix/install-nginx
 
-fix: align base images to ghcr.io/hassio-addons prefix
+fix: install nginx in Dockerfile
