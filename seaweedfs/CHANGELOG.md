@@ -1,1 +1,1 @@
-- Change filer port from 8888 to 8889
+- fix: nginx run exec bit missing
