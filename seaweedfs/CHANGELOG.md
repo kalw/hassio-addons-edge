@@ -1,3 +1,3 @@
-- Merge pull request #39 from kalw/fix/install-nginx
+- Merge pull request #40 from kalw/fix/image-name-hassio-prefix
 
-fix: install nginx in Dockerfile
+fix: prefix published image name with hassio-addon
