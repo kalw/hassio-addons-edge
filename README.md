@@ -160,10 +160,10 @@ SOFTWARE.
 [ha_stats_lake-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [ha_stats_lake-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [ha_stats_lake-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-vault]: https://github.com/kalw/hassio-addon-vault/tree/af680b6
-[addon-doc-vault]: https://github.com/kalw/hassio-addon-vault/blob/af680b6/README.md
+[addon-vault]: https://github.com/kalw/hassio-addon-vault/tree/0d943cd
+[addon-doc-vault]: https://github.com/kalw/hassio-addon-vault/blob/0d943cd/README.md
 [vault-issue]: https://github.com/kalw/hassio-addon-vault/issues
-[vault-version-shield]: https://img.shields.io/badge/version-af680b6-blue.svg
+[vault-version-shield]: https://img.shields.io/badge/version-0d943cd-blue.svg
 [vault-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [vault-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [vault-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
