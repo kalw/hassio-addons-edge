@@ -1,7 +1,7 @@
-- fix: rename image to ghcr.io/kalw/hassio-addon-vault/{arch}
+- revert: restore vault image to ghcr.io/kalw/vault/{arch}
 
-The bare 'vault' package name was ambiguous in GHCR alongside other
-unrelated vault images; prefixing with hassio-addon-vault matches the
-repo name and makes it clear this is the HA addon image.
+The deploy workflow uses the slug field (vault) to name the pushed image,
+not the image field. Changing image: created a mismatch — HA tried to pull
+from hassio-addon-vault/{arch} while the workflow kept pushing to vault/{arch}.
 
 Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
