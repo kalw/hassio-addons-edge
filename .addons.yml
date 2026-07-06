@@ -1,10 +1,10 @@
 ---
 channel: edge
 addons:
-  seaweedfs:
+  hassio-addon-seaweedfs:
     repository: kalw/hassio-addon-seaweedfs
-    target: seaweedfs
-    image: ghcr.io/kalw/seaweedfs/{arch}
+    target: hassio-addon-seaweedfs
+    image: ghcr.io/kalw/hassio-addon-seaweedfs/{arch}
   ha_stats_lake:
     repository: kalw/hassio-addon-stats-lake
     target: ha_stats
