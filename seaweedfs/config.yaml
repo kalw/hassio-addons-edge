@@ -1,5 +1,5 @@
 name: SeaweedFS
-version: df9946d
+version: c5d6669
 slug: hassio-addon-seaweedfs
 description: SeaweedFS S3-compatible distributed object storage
 url: https://github.com/kalw/hassio-addon-seaweedfs
@@ -29,4 +29,4 @@ schema:
   s3_region: str
   access_key_id: str
   secret_key: str
-image: ghcr.io/kalw/seaweedfs/{arch}
+image: ghcr.io/kalw/hassio-addon-seaweedfs/{arch}
