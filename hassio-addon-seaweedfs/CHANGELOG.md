@@ -1,3 +1,3 @@
-- Merge pull request #42 from kalw/fix/rename-slug-hassio-addon
+- Merge pull request #46 from kalw/fix/remove-invalid-filer-s3-region-flag
 
-fix: rename slug to hassio-addon-seaweedfs
+fix: remove invalid -filer.s3.region flag
