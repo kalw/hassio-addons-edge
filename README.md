@@ -73,19 +73,6 @@ Add-on that launch an Hashicorp Vault server
 
 [:books: Hashicorp Vault Addon add-on documentation][addon-doc-vault]
 
-### &#10003; [SeaweedFS][addon-seaweedfs]
-
-![Latest Version][seaweedfs-version-shield]
-![Supports armhf Architecture][seaweedfs-armhf-shield]
-![Supports armv7 Architecture][seaweedfs-armv7-shield]
-![Supports aarch64 Architecture][seaweedfs-aarch64-shield]
-![Supports amd64 Architecture][seaweedfs-amd64-shield]
-![Supports i386 Architecture][seaweedfs-i386-shield]
-
-SeaweedFS S3-compatible distributed object storage
-
-[:books: SeaweedFS add-on documentation][addon-doc-seaweedfs]
-
 ## Releases
 
 Add-on releases are **NOT** based on [Semantic Versioning][semver], unlike
@@ -109,7 +96,6 @@ on the correct GitHub repository matching the add-on.
 
 - [Open an issue for the add-on: HA Stats Lake][ha_stats_lake-issue]
 - [Open an issue for the add-on: Hashicorp Vault Addon][vault-issue]
-- [Open an issue for the add-on: SeaweedFS][seaweedfs-issue]
 
 For a general repository issue or add-on ideas [open an issue here][issue]
 
@@ -169,15 +155,6 @@ SOFTWARE.
 [vault-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [vault-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [vault-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-seaweedfs]: https://github.com/kalw/hassio-addon-seaweedfs/tree/c5d6669
-[addon-doc-seaweedfs]: https://github.com/kalw/hassio-addon-seaweedfs/blob/c5d6669/README.md
-[seaweedfs-issue]: https://github.com/kalw/hassio-addon-seaweedfs/issues
-[seaweedfs-version-shield]: https://img.shields.io/badge/version-c5d6669-blue.svg
-[seaweedfs-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[seaweedfs-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[seaweedfs-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
-[seaweedfs-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
-[seaweedfs-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
