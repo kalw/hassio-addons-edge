@@ -60,6 +60,19 @@ Long-term storage for Home Assistant sensor data. Samples a list of entities eve
 
 [:books: HA Stats Lake add-on documentation][addon-doc-ha_stats_lake]
 
+### &#10003; [Hashicorp Vault Addon][addon-hassio-addon-vault]
+
+![Latest Version][hassio-addon-vault-version-shield]
+![Supports armhf Architecture][hassio-addon-vault-armhf-shield]
+![Supports armv7 Architecture][hassio-addon-vault-armv7-shield]
+![Supports aarch64 Architecture][hassio-addon-vault-aarch64-shield]
+![Supports amd64 Architecture][hassio-addon-vault-amd64-shield]
+![Supports i386 Architecture][hassio-addon-vault-i386-shield]
+
+Add-on that launch an Hashicorp Vault server
+
+[:books: Hashicorp Vault Addon add-on documentation][addon-doc-hassio-addon-vault]
+
 ### &#10003; [SeaweedFS][addon-hassio-addon-seaweedfs]
 
 ![Latest Version][hassio-addon-seaweedfs-version-shield]
@@ -95,6 +108,7 @@ GitHub repository for each add-on. Please ensure you are creating the issue
 on the correct GitHub repository matching the add-on.
 
 - [Open an issue for the add-on: HA Stats Lake][ha_stats_lake-issue]
+- [Open an issue for the add-on: Hashicorp Vault Addon][hassio-addon-vault-issue]
 - [Open an issue for the add-on: SeaweedFS][hassio-addon-seaweedfs-issue]
 
 For a general repository issue or add-on ideas [open an issue here][issue]
@@ -146,6 +160,15 @@ SOFTWARE.
 [ha_stats_lake-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [ha_stats_lake-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [ha_stats_lake-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+[addon-hassio-addon-vault]: https://github.com/kalw/hassio-addon-vault/tree/b74f181
+[addon-doc-hassio-addon-vault]: https://github.com/kalw/hassio-addon-vault/blob/b74f181/README.md
+[hassio-addon-vault-issue]: https://github.com/kalw/hassio-addon-vault/issues
+[hassio-addon-vault-version-shield]: https://img.shields.io/badge/version-b74f181-blue.svg
+[hassio-addon-vault-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[hassio-addon-vault-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[hassio-addon-vault-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[hassio-addon-vault-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[hassio-addon-vault-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-hassio-addon-seaweedfs]: https://github.com/kalw/hassio-addon-seaweedfs/tree/64a6af8
 [addon-doc-hassio-addon-seaweedfs]: https://github.com/kalw/hassio-addon-seaweedfs/blob/64a6af8/README.md
 [hassio-addon-seaweedfs-issue]: https://github.com/kalw/hassio-addon-seaweedfs/issues
