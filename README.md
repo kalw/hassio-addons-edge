@@ -169,10 +169,10 @@ SOFTWARE.
 [vault-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [vault-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [vault-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-hassio-addon-seaweedfs]: https://github.com/kalw/hassio-addon-seaweedfs/tree/6cc222c
-[addon-doc-hassio-addon-seaweedfs]: https://github.com/kalw/hassio-addon-seaweedfs/blob/6cc222c/README.md
+[addon-hassio-addon-seaweedfs]: https://github.com/kalw/hassio-addon-seaweedfs/tree/3f95b77
+[addon-doc-hassio-addon-seaweedfs]: https://github.com/kalw/hassio-addon-seaweedfs/blob/3f95b77/README.md
 [hassio-addon-seaweedfs-issue]: https://github.com/kalw/hassio-addon-seaweedfs/issues
-[hassio-addon-seaweedfs-version-shield]: https://img.shields.io/badge/version-6cc222c-blue.svg
+[hassio-addon-seaweedfs-version-shield]: https://img.shields.io/badge/version-3f95b77-blue.svg
 [hassio-addon-seaweedfs-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [hassio-addon-seaweedfs-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [hassio-addon-seaweedfs-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
