@@ -59,11 +59,11 @@ If you are more interested in stable releases of our add-ons:
 [github-actions-shield]: https://github.com/kalw/hassio-addon-stats-lake/workflows/CI/badge.svg
 [github-actions]: https://github.com/kalw/hassio-addon-stats-lake/actions
 [commits]: https://github.com/kalw/hassio-addon-stats-lake/commits/main
-[commits-shield]: https://img.shields.io/github/commit-activity/y/kalw/hassio-addon-stats-lake.svg
-[releases-shield]: https://img.shields.io/github/release/kalw/hassio-addon-stats-lake.svg
-[releases]: https://github.com/kalw/hassio-addon-stats-lake/tree/5ed0709
-[last-commit-shield]: https://img.shields.io/github/last-commit/kalw/hassio-addon-stats-lake.svg
-[license-shield]: https://img.shields.io/github/license/kalw/hassio-addon-stats-lake.svg
+[commits-shield]: https://img.shields.io/github/commit-activity/y/kalw/ha-stats-lake.svg
+[releases-shield]: https://img.shields.io/github/release/kalw/ha-stats-lake.svg
+[releases]: https://github.com/kalw/hassio-addon-stats-lake/tree/f3bd816
+[last-commit-shield]: https://img.shields.io/github/last-commit/kalw/ha-stats-lake.svg
+[license-shield]: https://img.shields.io/github/license/kalw/ha-stats-lake.svg
 [docs]: https://github.com/kalw/hassio-addon-stats-lake/blob/main/ha_stats/DOCS.md
 
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-yellow.svg
