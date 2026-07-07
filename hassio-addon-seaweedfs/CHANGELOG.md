@@ -1,13 +1,17 @@
-- fix: use ip.bind=0.0.0.0 for external access, ip=127.0.0.1 for stable discovery
+- fix: raise volume count ceiling to stop uploads failing after 8 volumes
 
-Without -ip, SeaweedFS auto-detects the container IP which can be
-unreliable in the HA supervisor network, causing volume server to fail
-registration (0 node candidates). With -ip=127.0.0.1, all internal
-component discovery stays on stable loopback. -ip.bind=0.0.0.0 makes
-all services (including S3 port 8333) listen on all interfaces so
-the addon port mapping works.
+SeaweedFS defaults -volume.max to a fixed count of 8, unrelated to
+actual free disk space. Once a node has 8 volumes (easily reached
+with small default 30GB volume size and normal usage), the master
+reports "0 node candidates" for any further volume growth and all
+new uploads fail permanently, even with abundant free disk space.
 
-Also removes the hardcoded amd64 default from ARG BUILD_FROM — the
-build system always passes the correct arch-specific image via build.yaml.
+Root cause confirmed via /vol/status on a production instance:
+"Free":0,"Max":8 despite 163GB free on the host.
+
+Fix: -volume.max=0 lets the volume count auto-scale with actual free
+disk space, and -master.volumeSizeLimitMB=1000 (down from the 30GB
+default) keeps individual volumes small so more of them fit, which
+matters on typical HA installs with limited storage.
 
 Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
