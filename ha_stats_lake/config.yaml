@@ -3,10 +3,10 @@ description: Long-term storage for Home Assistant sensor data. Samples a list of
   every 30 minutes to per-entity monthly CSVs, then consolidates nightly into a DuckLake
   (Parquet) on any S3-compatible store and optionally syncs raw CSVs to any rclone
   remote.
-version: f3bd816
+version: bb4f9a0
 slug: ha_stats_lake
 url: https://github.com/kalw/hassio-addon-stats-lake
-image: ghcr.io/kalw/hassio-addon-stats-lake/{arch}
+image: ghcr.io/kalw/ha_stats_lake/{arch}
 homeassistant_api: true
 arch:
 - aarch64
