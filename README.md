@@ -47,6 +47,19 @@ https://github.com/kalw/hassio-addons-edge
 
 ## Add-ons provided by this repository
 
+### &#10003; [HA Stats Lake][addon-hassio-addon-stats-lake]
+
+![Latest Version][hassio-addon-stats-lake-version-shield]
+![Supports armhf Architecture][hassio-addon-stats-lake-armhf-shield]
+![Supports armv7 Architecture][hassio-addon-stats-lake-armv7-shield]
+![Supports aarch64 Architecture][hassio-addon-stats-lake-aarch64-shield]
+![Supports amd64 Architecture][hassio-addon-stats-lake-amd64-shield]
+![Supports i386 Architecture][hassio-addon-stats-lake-i386-shield]
+
+Long-term storage for Home Assistant sensor data. Samples a list of entities every 30 minutes to per-entity monthly CSVs, then consolidates nightly into a DuckLake (Parquet) on any S3-compatible store and optionally syncs raw CSVs to any rclone remote.
+
+[:books: HA Stats Lake add-on documentation][addon-doc-hassio-addon-stats-lake]
+
 ### &#10003; [Hashicorp Vault Addon][addon-hassio-addon-vault]
 
 ![Latest Version][hassio-addon-vault-version-shield]
@@ -94,6 +107,7 @@ You could also open an issue here on GitHub. Note, we use a separate
 GitHub repository for each add-on. Please ensure you are creating the issue
 on the correct GitHub repository matching the add-on.
 
+- [Open an issue for the add-on: HA Stats Lake][hassio-addon-stats-lake-issue]
 - [Open an issue for the add-on: Hashicorp Vault Addon][hassio-addon-vault-issue]
 - [Open an issue for the add-on: SeaweedFS][hassio-addon-seaweedfs-issue]
 
@@ -137,6 +151,15 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+[addon-hassio-addon-stats-lake]: https://github.com/kalw/hassio-addon-stats-lake/tree/3e2df71
+[addon-doc-hassio-addon-stats-lake]: https://github.com/kalw/hassio-addon-stats-lake/blob/3e2df71/README.md
+[hassio-addon-stats-lake-issue]: https://github.com/kalw/hassio-addon-stats-lake/issues
+[hassio-addon-stats-lake-version-shield]: https://img.shields.io/badge/version-3e2df71-blue.svg
+[hassio-addon-stats-lake-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[hassio-addon-stats-lake-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[hassio-addon-stats-lake-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[hassio-addon-stats-lake-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[hassio-addon-stats-lake-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
 [addon-hassio-addon-vault]: https://github.com/kalw/hassio-addon-vault/tree/26247e9
 [addon-doc-hassio-addon-vault]: https://github.com/kalw/hassio-addon-vault/blob/26247e9/README.md
 [hassio-addon-vault-issue]: https://github.com/kalw/hassio-addon-vault/issues
