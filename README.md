@@ -160,10 +160,10 @@ SOFTWARE.
 [hassio-addon-stats-lake-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
 [hassio-addon-stats-lake-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
 [hassio-addon-stats-lake-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
-[addon-hassio-addon-vault]: https://github.com/kalw/hassio-addon-vault/tree/516061d
-[addon-doc-hassio-addon-vault]: https://github.com/kalw/hassio-addon-vault/blob/516061d/README.md
+[addon-hassio-addon-vault]: https://github.com/kalw/hassio-addon-vault/tree/9204849
+[addon-doc-hassio-addon-vault]: https://github.com/kalw/hassio-addon-vault/blob/9204849/README.md
 [hassio-addon-vault-issue]: https://github.com/kalw/hassio-addon-vault/issues
-[hassio-addon-vault-version-shield]: https://img.shields.io/badge/version-516061d-blue.svg
+[hassio-addon-vault-version-shield]: https://img.shields.io/badge/version-9204849-blue.svg
 [hassio-addon-vault-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [hassio-addon-vault-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [hassio-addon-vault-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
