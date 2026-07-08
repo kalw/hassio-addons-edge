@@ -1,19 +1,18 @@
----
 name: Hashicorp Vault Addon
-version: 91a6bb9
+version: 26247e9
 slug: vault
 description: Add-on that launch an Hashicorp Vault server
 url: https://github.com/kalw/hassio-addon-vault
 privileged:
-  - IPC_LOCK
+- IPC_LOCK
 init: false
 ingress: true
 ports:
   8200/tcp: 8200
   8201/tcp: null
 map:
-  - config:rw
-  - ssl:rw
+- config:rw
+- ssl:rw
 hassio_api: true
 options:
   vault_api_addr: 0.0.0.0:8200
@@ -49,6 +48,6 @@ schema:
   aws_secret_key_password: password?
   aws_kms_key_id: str?
 arch:
-  - amd64
-  - aarch64
+- amd64
+- aarch64
 image: ghcr.io/kalw/hassio-addon-vault/{arch}
