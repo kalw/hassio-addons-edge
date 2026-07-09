@@ -151,10 +151,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[addon-hassio-addon-stats-lake]: https://github.com/kalw/hassio-addon-stats-lake/tree/5c2563d
-[addon-doc-hassio-addon-stats-lake]: https://github.com/kalw/hassio-addon-stats-lake/blob/5c2563d/README.md
+[addon-hassio-addon-stats-lake]: https://github.com/kalw/hassio-addon-stats-lake/tree/8196bc1
+[addon-doc-hassio-addon-stats-lake]: https://github.com/kalw/hassio-addon-stats-lake/blob/8196bc1/README.md
 [hassio-addon-stats-lake-issue]: https://github.com/kalw/hassio-addon-stats-lake/issues
-[hassio-addon-stats-lake-version-shield]: https://img.shields.io/badge/version-5c2563d-blue.svg
+[hassio-addon-stats-lake-version-shield]: https://img.shields.io/badge/version-8196bc1-blue.svg
 [hassio-addon-stats-lake-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [hassio-addon-stats-lake-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [hassio-addon-stats-lake-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg

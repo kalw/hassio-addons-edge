@@ -1,3 +1,3 @@
-- Merge pull request #26 from kalw/feat/entity-picker-redesign
+- Merge pull request #27 from kalw/feat/entity-area
 
-feat(ui): History-style entity picker with configured list + delete
+feat(ui): show entity area in picker and configured list
