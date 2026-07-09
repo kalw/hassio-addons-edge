@@ -1,3 +1,3 @@
-- Merge pull request #23 from kalw/chore/align-deploy-seaweedfs
+- Merge pull request #24 from kalw/feat/ingress-entity-picker
 
-chore: align deploy with hassio-addon-seaweedfs pattern
+feat: ingress UI for picking tracked entities
