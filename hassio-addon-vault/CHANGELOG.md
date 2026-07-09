@@ -1,7 +1,10 @@
-- fix: strip CSP and X-Frame-Options headers to allow HA ingress iframe (#26)
+- fix: inject <base href> so Vault Ember SPA routes correctly via ingress (#27)
 
-Vault sets Content-Security-Policy: frame-ancestors 'none' and X-Frame-Options
-which block the HA ingress iframe. Strip them in nginx so the UI loads.
+Vault's compiled HTML has no <base> tag. Ember's router uses its built-in
+rootURL (/ui/) which doesn't match the browser URL when served through HA
+ingress (/api/hassio_ingress/<token>/ui/), causing a 404 on all routes.
+Injecting <base href="$http_x_ingress_path/ui/"> after <head> lets Ember
+read the correct rootURL at runtime.
 
 Co-authored-by: release-bot <release-bot@ci.net>
 Co-authored-by: Claude Sonnet 4.6 <noreply@anthropic.com>
