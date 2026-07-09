@@ -1,5 +1,5 @@
 name: Hashicorp Vault Addon
-version: 6ad720b
+version: 7edb75e
 slug: vault
 description: Add-on that launch an Hashicorp Vault server
 url: https://github.com/kalw/hassio-addon-vault
@@ -8,6 +8,8 @@ privileged:
 init: false
 ingress: true
 ingress_entry: ui/
+panel_icon: mdi:shield-lock
+panel_title: Vault
 ports:
   8200/tcp: 8200
   8201/tcp: null
