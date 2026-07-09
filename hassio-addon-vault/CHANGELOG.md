@@ -1,10 +1,11 @@
-- fix: inject <base href> so Vault Ember SPA routes correctly via ingress (#27)
+- fix: patch Ember rootURL meta tag so Vault UI routes correctly via ingress
 
-Vault's compiled HTML has no <base> tag. Ember's router uses its built-in
-rootURL (/ui/) which doesn't match the browser URL when served through HA
-ingress (/api/hassio_ingress/<token>/ui/), causing a 404 on all routes.
-Injecting <base href="$http_x_ingress_path/ui/"> after <head> lets Ember
-read the correct rootURL at runtime.
+Vault's Ember SPA (locationType=history) reads rootURL from the
+vault/config/environment meta tag. With rootURL=/ui/ and the browser URL
+at /api/hassio_ingress/<token>/ui/, Ember can't match any route → 404.
 
-Co-authored-by: release-bot <release-bot@ci.net>
-Co-authored-by: Claude Sonnet 4.6 <noreply@anthropic.com>
+Extend the injected shim to decode that meta tag before Ember boots,
+prepend the X-Ingress-Path value to rootURL, and re-encode it.
+Ember then sees rootURL=/api/hassio_ingress/<token>/ui/ and routes correctly.
+
+Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>

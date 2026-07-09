@@ -1,5 +1,5 @@
 name: Hashicorp Vault Addon
-version: 200b733
+version: 4501eb5
 slug: vault
 description: Add-on that launch an Hashicorp Vault server
 url: https://github.com/kalw/hassio-addon-vault
