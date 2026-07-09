@@ -1,11 +1,9 @@
-- fix: patch Ember rootURL meta tag so Vault UI routes correctly via ingress
+- fix: fix shim JS syntax and add service worker patch (#28)
 
-Vault's Ember SPA (locationType=history) reads rootURL from the
-vault/config/environment meta tag. With rootURL=/ui/ and the browser URL
-at /api/hassio_ingress/<token>/ui/, Ember can't match any route → 404.
+- Use getElementsByName instead of querySelector to avoid backslash-escaping
+  issues in the bash heredoc that produced a JS SyntaxError at runtime
+- Patch navigator.serviceWorker.register so sw.js is fetched through
+  the ingress path instead of hitting ha.indolore.net/ui/sw.js directly
 
-Extend the injected shim to decode that meta tag before Ember boots,
-prepend the X-Ingress-Path value to rootURL, and re-encode it.
-Ember then sees rootURL=/api/hassio_ingress/<token>/ui/ and routes correctly.
-
-Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
+Co-authored-by: release-bot <release-bot@ci.net>
+Co-authored-by: Claude Sonnet 4.6 <noreply@anthropic.com>
