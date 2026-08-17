@@ -1,5 +1,5 @@
 name: SeaweedFS
-version: fd84ce4
+version: dc8c64b
 slug: hassio-addon-seaweedfs
 description: SeaweedFS S3-compatible distributed object storage
 url: https://github.com/kalw/hassio-addon-seaweedfs
